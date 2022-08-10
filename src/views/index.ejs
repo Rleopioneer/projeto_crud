@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <%- include('partials/head') %>
+    <%- include('partials/head.ejs') %>
     <body>
-        <h1><%= title %></h1>
+        <header>
+            <h1><%= title %></h1>
+            <%- include('partials/navbar.ejs') %>
+        </header>
 
-        
-
-        <%- include('partials/foot') %>
+        <%- include('partials/foot.ejs') %>
     </body>
 </html>

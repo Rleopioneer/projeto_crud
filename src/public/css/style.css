@@ -9,4 +9,62 @@ body {
   color: #fff;
   font-size: 16px;
   font-family: "Courier New", Courier, monospace;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+body header h1 {
+  padding-top: 1em;
+  text-align: center;
+}
+body header ul {
+  text-align: center;
+  padding-bottom: 1em;
+}
+body header ul li {
+  padding: 0.5em 0;
+  list-style: none;
+}
+body header ul li a {
+  color: greenyellow;
+  text-decoration: none;
+}
+body form {
+  margin: 2em auto;
+  display: flex;
+  justify-items: center;
+  align-items: flex-end;
+  justify-content: center;
+  flex-flow: wrap column;
+  align-content: center;
+}
+body form div {
+  padding: 0.5em;
+}
+body form div label {
+  font-size: 1.2rem;
+}
+body form div input {
+  width: 30vw;
+  height: 4vh;
+}
+body form div button {
+  width: 30vw;
+  height: 4vh;
+}
+body .list {
+  margin: 0 auto;
+  width: 80vw;
+}
+body .list ul li {
+  padding: 0.5em 0;
+}
+body .list ul li a {
+  font-size: 1.2rem;
+  color: greenyellow;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
